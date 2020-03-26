@@ -3,7 +3,10 @@
 using namespace std;
 
 string phonetic::find(string text, string word){
-	return "initial test";
+	if (sizeof(word)<3)
+		return "initial test";
+	else
+		throw std::invalid_argument( "word wasn't found" );
 }
 
 
