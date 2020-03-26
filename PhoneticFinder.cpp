@@ -4,9 +4,9 @@ using namespace std;
 
 string phonetic::find(string text, string word){
 	if (sizeof(word)<3)
-		return "initial test";
+		return "word found";
 	else
-		throw std::invalid_argument( "word wasn't found" );
+		return "word wasn't found";
 }
 
 
